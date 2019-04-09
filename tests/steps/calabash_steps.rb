@@ -18,8 +18,7 @@ E(/^clicar no botão "([^\""]*)"$/) do |texto|
 end
 
 Então(/^a página principal é exibida$/) do
-  @home = page(homepage)
-  @home.load_homepage(1)
+  @login.load_homepage(1)
 end
 
 Então(/^a mensagem "([^\""]*)" é exibida$/) do |mensagem|

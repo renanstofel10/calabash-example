@@ -1,0 +1,2 @@
+ios: tests/features PLATFORM=ios -r ios/support -r tests/steps -r ios/pages 
+android: tests/features PLATFORM=android -r android/support -r tests/steps -r android/pages

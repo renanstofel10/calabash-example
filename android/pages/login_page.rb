@@ -1,7 +1,7 @@
 require 'calabash-android/abase'
 
 # Class Login
-class loginpage < Calabash::ABase
+class LoginPage < Calabash::ABase
   def loginpage_view
     query("* id:'login_form'")
   end

@@ -5,7 +5,7 @@ elsif ENV['PLATFORM'] == 'android'
 end
 
 Dado(/^que eu acesse a tela inicial$/) do
-  @login = page(loginpage)
+  @login = page(LoginPage)
   @login.load_loginpage(1)
 end
 
